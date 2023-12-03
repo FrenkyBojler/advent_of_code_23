@@ -76,12 +76,14 @@ void main() {
     return value + element;
   });
 
-  //print(sum);
+  // first part
+  print(sum);
 
   final power = games.map((e) => e.getPowerOfGame()).reduce((value, element) {
     return value + element;
   });
 
+  // second part
   print(power);
 }
 
